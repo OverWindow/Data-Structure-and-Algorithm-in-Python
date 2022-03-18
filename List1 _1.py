@@ -21,3 +21,5 @@ grade = {
 #리스트에 요소에 대응되는 값을 저장하는 기법을 처음알았다.
 X = input()
 print(grade[X])
+
+#Hello world
