@@ -20,7 +20,7 @@ for i in range(int(sys.stdin.readline())):
     if B[0] == "P":
         st1.append(B[1])
     elif B[0] == "L":
-        if st1:
+        if st1:                             #이 뜻은 st1에 요소가 있다면 True 하나도 없다면 False
             st2.append(st1.pop())
     elif B[0] == "D":
         if st2:
